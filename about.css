@@ -1,0 +1,75 @@
+
+body {
+    background-image: url(background.png);
+    background-size: 100% 100%;
+    
+}
+
+
+
+.essay {
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-style: roman;
+    background-color: white;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+.features {
+    float: left;
+    text-align: left; /* Align features to the right */
+    margin: 50px;
+    background-color: white;
+}
+
+.features h2 {
+    margin-top: 0; /* Remove top margin from the h2 */
+    font-size: 40px;
+}
+
+.features li{
+    font-size: 30px;
+}
+
+
+.header{
+    background-image: url(header1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+li
+{
+    font-size: 20px;
+}
+.navbar
+{
+    background-color: rgba(241, 24, 24, 0.521);
+    width: 100%;
+    height: fit-content;
+    max-height: 100px;
+}
+.navbar button
+{
+    padding: 20px 90px;
+    margin : 5px;
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin-left: 20px;
+}
+.navbar button:hover
+{
+    background-color: white;
+}
+
